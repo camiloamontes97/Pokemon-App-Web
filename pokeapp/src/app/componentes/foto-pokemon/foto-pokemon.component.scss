@@ -1,0 +1,16 @@
+#container{
+    position: relative;
+    aspect-ratio: 1;
+    max-width: 400px;
+    border: solid 5px #CE24DB;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 50px;
+   
+    outline: solid 12px  #5B1995;
+}
+
+img{
+    width: 100%;
+    image-rendering: pixelated;
+  }

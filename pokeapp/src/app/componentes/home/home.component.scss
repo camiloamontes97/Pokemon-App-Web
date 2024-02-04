@@ -1,0 +1,12 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+
+}
+
+#tarjetasContainer{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

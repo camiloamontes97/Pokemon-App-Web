@@ -1,0 +1,40 @@
+#container{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    overflow:visible;
+    z-index: 0;
+    max-height: 900px;
+    margin-right: 50px;
+}
+
+#tarjeta{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #80B1EA;
+    border-radius: 25px ;
+    padding-right: 2rem;
+    cursor: pointer;
+    width: 100%;
+    font-size: larger;
+    
+}
+
+#circulo{
+    border-radius: 50%;
+    height: 25px;
+    aspect-ratio: 1;
+    background-color: rgba(0, 0, 0, 0.125);
+    margin-left: 8px;
+  }
+
+  img{
+    max-height: 40px;
+    z-index: 1;
+  }
+  
+  span{
+    user-select: none;
+  }

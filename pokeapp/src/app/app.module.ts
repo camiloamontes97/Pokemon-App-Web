@@ -10,6 +10,9 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { PokeDetallesComponent } from './componentes/poke-detalles/poke-detalles.component';
 import { PokeListaComponent } from './componentes/poke-lista/poke-lista.component';
+import { FotoPokemonComponent } from './componentes/foto-pokemon/foto-pokemon.component';
+import { TarjetaPokemonComponent } from './componentes/tarjeta-pokemon/tarjeta-pokemon.component';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { PokeListaComponent } from './componentes/poke-lista/poke-lista.componen
     FooterComponent,
     HomeComponent,
     PokeDetallesComponent,
-    PokeListaComponent
+    PokeListaComponent,
+    FotoPokemonComponent,
+    TarjetaPokemonComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+  
   ],
   providers: [
     provideClientHydration()

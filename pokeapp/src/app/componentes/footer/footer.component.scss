@@ -1,15 +1,14 @@
 .containerFooter{
     display: flex;
     align-items: center;
-    gap: 2em;
-    border-radius: 10px  ;
-    padding: 3em 5em;
-    width: 1000px;
-    margin-left: 50px;
-    margin-right: 50px ;
-    margin-bottom: 10em;
-    border: solid white;
     background: rgba(136, 134, 136, 0.089);
+ 
     
 }
 
+span{
+    margin: 3px;
+    padding: auto;
+    margin-left: 20%;
+    
+}
