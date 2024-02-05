@@ -1,0 +1,25 @@
+#contenidoFooter{
+    height: 60px;
+    width: 100%;
+    background:#030A12;
+
+}
+
+#imgLogoPokemon{
+    margin-top: 10px;
+    width: 50x;
+    height: 60px;
+    margin-block-start: auto;
+
+    
+}
+
+.imagenLogoPokemon1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .imagenLogoPokemon1>img{
+    max-width: 50%;
+}
